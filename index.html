@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="qrcodecontainer">
+        <div class="heading">
+            QR Code Generator
+        </div>
+
+        <input type="text" placeholder="Type Something..." id="input">
+
+        <div class="qrimage">
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=vijay randhave" width="300px"
+                id="img">
+        </div>
+
+        <button id="btn">Generate QR Code</button>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
